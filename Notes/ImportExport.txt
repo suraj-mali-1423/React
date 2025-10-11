@@ -1,0 +1,23 @@
+1.Export :
+            Meaning: It’s used to share code (like a function, variable, or class)
+            from one file so other files can use it.
+            Think of it like: Sending something out.
+
+Example:
+            // file: math.js
+        export function add(a, b) {
+           return a + b;
+        }
+
+2.Import
+
+            Meaning: It’s used to bring code from another file into the current file.
+            Think of it like: Receiving something that was exported.
+
+Example:
+
+            // file: main.js
+            import { add } from './math.js';
+            console.log(add(2, 3)); // Output: 5
+
+-------------------------------------------------------------------------------------------------------            
